@@ -1,0 +1,916 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"societe",
+				"societe	(_layout.scss)"
+			],
+			[
+				"er",
+				"er	ERB tags"
+			],
+			[
+				"col",
+				"columns	(application.html.erb)"
+			],
+			[
+				"des",
+				"description	(product.rb)"
+			],
+			[
+				"ti",
+				"title	(product.rb)"
+			],
+			[
+				"url",
+				"url_image	(product.rb)"
+			],
+			[
+				"prd",
+				"products	(products_controller.rb)"
+			],
+			[
+				"if",
+				"if	ERB if"
+			],
+			[
+				"new_",
+				"new_product_title"
+			],
+			[
+				"new",
+				"new_product_title"
+			],
+			[
+				"in",
+				"invalid"
+			],
+			[
+				"ass",
+				"assert"
+			],
+			[
+				"va",
+				"val	Ruby validates"
+			],
+			[
+				"ge",
+				"greater	(schema.rb)"
+			],
+			[
+				"lis",
+				"list_image	(products.scss)"
+			],
+			[
+				"list",
+				"list_line_even	(products.scss)"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"P",
+				"Person"
+			],
+			[
+				"p",
+				"pour"
+			],
+			[
+				"bla",
+				"black	(activites.html)"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"bio",
+				"biographie"
+			],
+			[
+				"plac",
+				"placeludique@gmail"
+			],
+			[
+				"de",
+				"debut"
+			],
+			[
+				"ac",
+				"activites"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"vert",
+				"vert-anis"
+			],
+			[
+				"c",
+				"caption	Tag"
+			],
+			[
+				"per",
+				"personnage	(main.scss)"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"pale",
+				"placeludique@gmail"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ver",
+				"vert-anis"
+			],
+			[
+				"co",
+				"coi	counter-increment"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"a",
+				"article	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "gu",
+		"selected_items":
+		[
+			[
+				"gu",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"gulp",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"comment",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				":q",
+				"Git: Quick Commit"
+			],
+			[
+				"ori",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"git: St",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Status"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"rake",
+				"Build With: Rake"
+			],
+			[
+				"git t",
+				"Git: Show Tags"
+			],
+			[
+				"emmet: w",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"gitq",
+				"Git: Quick Commit"
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"gul",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"gitbn",
+				"Git: New Branch"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"emmet ",
+				"Emmet: Remove Tag"
+			],
+			[
+				"emmet go",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"vie",
+				"View: Toggle Menu"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Packac",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Sass",
+				"SassBeautify"
+			],
+			[
+				"Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretif",
+				"HTMLPrettify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"zfgr",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"git bran",
+				"Git: New Branch"
+			],
+			[
+				"paca insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Pac instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Paca ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git stau",
+				"Git: Status"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sys",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nico/CATHYPRESTSERVICE"
+	],
+	"file_history":
+	[
+		"/home/nico/CATHYPESTSERVICE/src/css/jquery-ui.min.css",
+		"/home/nico/CATHYPESTSERVICE/dist/js/main.js",
+		"/home/nico/CATHYPESTSERVICE/gulpfile.js",
+		"/home/nico/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/nico/CATHYPESTSERVICE/src/js/main.js",
+		"/home/nico/CATHYPESTSERVICE/src/css/styles.css",
+		"/home/nico/5NCREATION/app/styles/styles.scss",
+		"/home/nico/CATHYPESTSERVICE/src/js/helper.js",
+		"/home/nico/CATHYPESTSERVICE/src/index.html",
+		"/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nico/CATHYPESTSERVICE/src/js/plugins.js",
+		"/home/nico/CATHYPESTSERVICE/node_modules/caniuse-db/features-json/input-number.json",
+		"/home/nico/5NCREATION/package.json",
+		"/home/nico/5NCREATION/gulpfile.js",
+		"/home/nico/CATHYPESTSERVICE/package.json",
+		"/home/nico/CATHYPESTSERVICE/app/sass/main.scss",
+		"/home/nico/CATHYPESTSERVICE/app/index.html",
+		"/home/nico/MENUCSS/src/index.html",
+		"/home/nico/GALLERIE/.sass-cache/7e897dfc9364fa2cf133b82135ea705b3d3baecd/ie.scssc",
+		"/home/nico/RAILS/depot/app/models/product.rb",
+		"/home/nico/RAILS/depot/app/views/store/index.html.erb",
+		"/home/nico/RAILS/depot/config/environments/development.rb",
+		"/home/nico/RAILS/depot/test/controllers/store_controller_test.rb",
+		"/home/nico/RAILS/depot/app/assets/stylesheets/depot.css",
+		"/home/nico/RAILS/depot/app/views/layouts/application.html.erb",
+		"/home/nico/.config/sublime-text-3/Packages/ERB Autocomplete/README.md",
+		"/home/nico/RAILS/depot/app/controllers/store_controller.rb",
+		"/home/nico/RAILS/depot/config/initializers/assets.rb",
+		"/home/nico/RAILS/depot/public/stylesheets/depot.css",
+		"/home/nico/RAILS/depot/config/routes.rb",
+		"/home/nico/RAILS/depot/test/models/product_test.rb",
+		"/home/nico/RAILS/depot/test/fixtures/products.yml",
+		"/home/nico/RAILS/depot/db/test.sqlite3",
+		"/home/nico/RAILS/depot/test/controllers/products_controller_test.rb",
+		"/home/nico/RAILS/depot/app/assets/stylesheets/products.scss",
+		"/home/nico/RAILS/depot/app/views/products/index.html.erb",
+		"/home/nico/RAILS/depot/db/migrate/20151113131709_create_products.rb",
+		"/home/nico/RAILS/depot/db/seeds.rb",
+		"/home/nico/RAILS/depot/app/views/products/_form.html.erb",
+		"/home/nico/RAILS/depot/db/schema.rb",
+		"/var/www/html/PHP/essai.php",
+		"/home/nico/PHP/essai.php",
+		"/home/nico/RAILS/test.rb",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_activites.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/activites.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/photo.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/main.scss",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_activites.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/jeu_et_nous.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/contact.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/remerciement.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/template.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/envoie.php",
+		"/var/www/html/placeludique/envoie.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/main.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/Hover-master/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/index2.html",
+		"/home/nico/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+		"/home/nico/RECUP/index.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/gulpfile.js",
+		"/home/nico/FORM/feedbackform.htm",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/feedbackformprocess.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/node_modules/gulp-util/lib/isNull.js",
+		"/home/nico/FORM/feedbackformprocess.php",
+		"/home/nico/FORM/feedbackformvalidation.js",
+		"/home/nico/FORM/feedbackforminstall.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/photoswipe.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/photos.html",
+		"/home/nico/FOUNDATION/foundation_icons_social/demo.html",
+		"/home/nico/FORM/mail.php",
+		"/home/nico/ESSAIS/test.rb",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/styles/_contacts.scss",
+		"/home/nico/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/nico/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/nico/WSK_PLACE_LUDIQUE/.tmp/styles/default-skin/default-skin.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/photos.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/photoswipe-ui-default.min.js",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/scripts/lg-autoplay.min.js",
+		"/home/nico/.config/sublime-text-3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/home/nico/WSK_PLACE_LUDIQUE/.tmp/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/app/indexOLD..html",
+		"/home/nico/TEST_WP/index.php",
+		"/home/nico/WSK_PLACE_LUDIQUE/PLACE_LUDIQUE.sublime-project",
+		"/home/nico/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/nico/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/nico/WSK_PLACE_LUDIQUE/node_modules/progress/Makefile",
+		"/home/nico/WSK_PLACE_LUDIQUE/dist/styles/main.css",
+		"/home/nico/WSK_PLACE_LUDIQUE/acitivite.html",
+		"/home/nico/WSK_PLACE_LUDIQUE/.travis.yml",
+		"/home/nico/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"min",
+			"div",
+			"tabs",
+			",\n",
+			"                 ",
+			"images",
+			"img",
+			"app",
+			"main",
+			"copy",
+			"styles",
+			"app",
+			"app'))\n        .use(serveIndex('",
+			"app",
+			"compass",
+			"5",
+			"ensure_not_referenced_by_any_line_itme",
+			"def self.latest \n		Product.order(:updated_at).latest\n	end\n	",
+			"➤",
+			"font",
+			"➤",
+			"image_url",
+			"prénom",
+			"italic",
+			"ludomodal",
+			"Temps d'Acitivitée Périscolaire",
+			"im",
+			"tap5",
+			"\n        ",
+			"espaceur",
+			"bio",
+			"class",
+			".thml",
+			".hml",
+			".hmt",
+			".thtml",
+			"thtml",
+			"default",
+			"figure",
+			"\">\n",
+			"<!--",
+			"ul",
+			"<!--",
+			"ul",
+			"debut",
+			"span",
+			"\n        ",
+			"button",
+			"color",
+			"\n    ",
+			"premiere-ligne",
+			"activites",
+			"jeu",
+			"activites",
+			"div",
+			"activites",
+			"activite",
+			"div",
+			"ul",
+			"orange",
+			"4928x3264",
+			">\n",
+			"face",
+			"Cécile",
+			"td",
+			".form-lead {\n        font-weight: 200;\n        font-size: 1rem;\n        margin-bottom: 0.5rem;\n        margin-left: 0;\n        color: $vert-anis;\n    }\n    p.form-lead-in {\n        font-weight: 300;\n        font-size: 1.3rem;\n        margin-bottom: 0.5rem;\n        margin-left: 0;\n        color: $vert-anis;\n    }",
+			"mots",
+			" ;",
+			"large-8",
+			"large",
+			"8",
+			"large",
+			"e",
+			"large",
+			"                <div class=\"large-8 columns\">\n",
+			"large",
+			"3",
+			"apero",
+			"activ",
+			"activite",
+			"acitivite",
+			"<!",
+			"share",
+			"facebook",
+			"1rem",
+			"espaceur",
+			"<footer class=\"footer\">\n        <div class=\"row\">\n            <div class=\"small-12 columns\">\n                <p class=\"slogan\">Oxalis SCOP-SA – 410 829 477 00141</p>\n                <p class=\"copywrite\">5N Création © 2015</p>\n            </div>\n        </div>\n    </footer>",
+			"\n  ",
+			"myblock",
+			"block",
+			"block-grid3",
+			"block",
+			"small",
+			"grid",
+			"block",
+			"----------------------------------------------",
+			">\n",
+			"alt+shift+1",
+			"columns",
+			"split",
+			"home",
+			"social",
+			"my",
+			"mybloc",
+			"premi",
+			"premier",
+			"premiere",
+			"entreprise",
+			" +",
+			"\\s",
+			"mardi"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".html",
+			"html",
+			"1Erem",
+			"1rem",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 189.0
+	},
+	"pinned_build_system": "",
+	"project": "CATHYPRESTSERVICES.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_mod",
+				"src/sass/_modules.scss"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"pag",
+				"src/pages.html"
+			],
+			[
+				"mai",
+				"dist/js/main.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"",
+				"src/js/main.js"
+			],
+			[
+				"inde",
+				"src/index.html"
+			],
+			[
+				"in",
+				"node_modules/caniuse-db/features-json/input-number.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"main",
+				"app/sass/main.scss"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"produc",
+				"app/models/product.rb"
+			],
+			[
+				"config/initializers/assets.rb",
+				"config/initializers/assets.rb"
+			],
+			[
+				"mode",
+				"app/models/product.rb"
+			],
+			[
+				"scss",
+				"app/assets/stylesheets/products.scss"
+			],
+			[
+				"index.",
+				"app/views/products/index.html.erb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"_ac",
+				"app/styles/_activites.scss"
+			],
+			[
+				"photo",
+				"app/photo.html"
+			],
+			[
+				"activi",
+				"app/activites.html"
+			],
+			[
+				"je",
+				"app/jeu_et_nous.html"
+			],
+			[
+				"en",
+				"app/envoie.php"
+			],
+			[
+				"main.",
+				"app/styles/main.scss"
+			],
+			[
+				"jeu",
+				"app/jeu_et_nous.html"
+			],
+			[
+				"temp",
+				"app/template.html"
+			],
+			[
+				"tem",
+				"app/template.html"
+			],
+			[
+				"mains",
+				"app/styles/main.scss"
+			],
+			[
+				"feed",
+				"app/feedbackformprocess.php"
+			],
+			[
+				"pho",
+				"app/photo.html"
+			],
+			[
+				"phot",
+				"photos.html"
+			],
+			[
+				"contac",
+				"app/styles/_contacts.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/5NCREATION/5NCREATION.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "claire",
+		"selected_items":
+		[
+			[
+				"claire",
+				"claire"
+			],
+			[
+				"share",
+				"pswp__share--facebook"
+			],
+			[
+				"faceboo",
+				"pswp__share--facebook"
+			],
+			[
+				"home2",
+				"home2"
+			],
+			[
+				"",
+				"$(EXAMPLES):"
+			],
+			[
+				"premi",
+				"premiere-ligne"
+			]
+		],
+		"width": 425.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
