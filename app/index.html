@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -8,6 +9,32 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Cathy Prest'Services">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
     <meta http-equiv="cleartype" content="on">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -45,14 +72,14 @@
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
         
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/slicknav.min.css" />
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/jquery-ui.theme.css">
-    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/slicknav.min.css" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/jquery-ui.css">
+    <link rel="stylesheet" href="styles/jquery-ui.theme.css">
+    <link rel="stylesheet" href="styles/jquery-ui.structure.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> 
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="scripts/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -70,7 +97,7 @@
     <div role="main">
         <section id="acceuil">
             <p class="societe">Cathy Prest'Service</p>
-            <p><img src="img/logo.png" alt="logo cathyprestservice"></p>
+            <p><img src="images/logo.png" alt="logo cathyprestservice"></p>
             <p class="activite">Assistante
                 <br/> Administrative
                 <br/> en Télétravail </p>
@@ -79,7 +106,7 @@
             <div class="container">
                 <div class="rectangle">
                     <h3 id='titre1'>Nos services ...</h3>
-                    <div>
+                    <div class="texte">
                         <img src="images/CASQUE.png" alt="casques standardist">
                         <p>Nous vous proposons une permanence téléphonique hors de vos locaux.</p>
                         <p>Nous travaillons à notre domicile, en tant que travailleurs indépendants.</p>
@@ -90,7 +117,7 @@
                 </div>
                 <div class="rectangle">
                     <h3 id='titre2'>Innovants ...</h3>
-                    <div>
+                    <div class="texte">
                         <img src="images/MAINS.png" alt="poignée de mains">
                         <p>Le télé-travail se développe en France et ailleurs.</p>
                         <p>Cette forme de travail est rendue possible par les nouveaux outils collaboratifs.</p>
@@ -101,7 +128,7 @@
                 </div>
                 <div class="rectangle">
                     <h3 id='titre3'>Et solidaires!</h3>
-                    <div>
+                    <div class="texte">
                         <img src="images/HEXAGONE.png" alt="hexagone">
                         <p>Nous ne sommes pas un centre d'appel. Nous sommes basées en France, dans le Poitou.</p>
                         <p>En utilisant nos services, vous contribuez à faire traviller des personnes en situation de handicap.</p>
@@ -118,11 +145,10 @@
     <!-- Add your site or application content here -->
     <!-- // <script src="js/vendor/jquery-2.2.0.min.js"></script> -->
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="js/vendor/jquery.slicknav.min.js"></script>
-    <script src="js/vendor/jquery-ui.min.js"></script>
-    <script src="js/vendor/enquire.min.js"></script>
-    <script src="js/helper.js"></script>
-    <script src="js/main.js"></script>
+    <script src="scripts/vendor/jquery.slicknav.min.js"></script>
+    <script src="scripts/vendor/jquery-ui.min.js"></script>
+    <script src="scripts/vendor/enquire.min.js"></script>
+    <script src="scripts/main.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <!--     <script>
 (function(b, o, i, l, e, r) {
