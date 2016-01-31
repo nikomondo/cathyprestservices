@@ -11,37 +11,10 @@
         box-sizing: border-box
     }
     
-    .slicknav_menu {
-        display: none;
-    }
+    // .js #menunav {
+    //     display: none;
+    // }
     
-    @media screen and (max-width: 40em) {
-        /* #menu is the original menu */
-        .js #menu {
-            display: none;
-        }
-        .js .slicknav_menu {
-            display: block;
-        }
-    }
-    
-    #menu {
-        li {
-            display: inline;
-        }
-    }
-    
-    #acceuil {
-        p {
-            text-align: center;
-        }
-        .societe {
-            font: 400 42px / 1.92px olivier;
-        }
-        .acitivite {
-            font: 400 30px / 1.92px Consolas;
-        }
-    }
     
     footer {
         text-align: center;

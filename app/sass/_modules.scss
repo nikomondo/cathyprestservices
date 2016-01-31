@@ -1,12 +1,78 @@
+// =================================================================
+// ===================== ACCCUEIL ==================================
+// =================================================================
+#acceuil {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+    justify-content: center;
+    align-items: stretch;
+    p {
+        text-align: center;
+        .societe {
+            font: 400 42px / 1.92px olivier;
+        }
+        .acitivite {
+            font: 400 30px / 1.92px Consolas;
+        }
+    }
+    #prestservice {
+        min-height: 100vh;
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        background-image: url('../images/accueil-cathy.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        position: relative;
+        // =================================================================
+        // ===================== MENU  ==================================
+        // =================================================================
+        nav {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            #menu {
+                display: flex;
+                width: 10rem;
+                align-items: stretch;
+                flex-direction: column;
+                margin-bottom: 3rem;
+                margin-left: 1rem;
+                .item{
+                    &:nth-child(odd) {
+                        align-self: flex-end;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// =================================================================
+// ===================== SERVICES  ==================================
+// =================================================================
 #services {
     text-align: center;
+    width: 90%;
+    display: flex;
+    min-height: 100vh;
+    margin: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    @include background-image(linear-gradient(63deg, rgba($bordure, 0) 0%, rgba($bordure, .01) 50%, rgba($bordure, 0) 100%));
     %titre {
         font-family: olivier;
         font-size: 2em;
         font-weight: 400;
-        // width: 14.625em;gcc
         text-shadow: 0 .313em .363em rgba(1, 1, 1, .65);
-        @include transform(rotate(-25deg) translate(-2em, +1em));
+        @include transform(rotate(-25deg) translate(-2rem, 3.5rem));
     }
     #titre1 {
         color: #30548e;
@@ -23,19 +89,21 @@
         @extend %titre;
     }
     /* contexte général flex sur le conteneur */
-    .container {
-        display: flex;
-        height: 800px;
-        margin: 2rem;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: stretch;
-        @include background-image(linear-gradient(63deg, rgba($bordure, 0) 0%, rgba($bordure, .01) 50%, rgba($bordure, 0) 100%));
-    }
     .texte {
         padding-top: 7rem;
         padding-left: 2rem;
         padding-right: 2rem;
+        font-size: 0.8rem;
+    }
+    .container {
+        text-align: center;
+        width: 80%;
+        display: flex;
+        min-height: 100vh;
+        margin: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
     }
     .rectangle {
         width: 28%;
@@ -56,3 +124,15 @@
         text-shadow: 0 1px 1px #fff;
     }
 }
+
+@media screen and (min-width: 750px) {
+    #prestservice {
+        p {
+            display: none;
+        }
+    }
+}
+
+// =================================================================
+// ===================== CONTACT  ==================================
+// =================================================================

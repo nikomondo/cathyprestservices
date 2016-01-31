@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"contac",
+				"contact"
+			],
+			[
+				"nav",
+				"navmenu	(index.html)"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"acc",
+				"acceuil	(index.html)"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"ac",
+				"acceuil	(index.html)"
+			],
+			[
 				"scri",
 				"scripts"
 			],
@@ -116,10 +144,6 @@
 				"debut"
 			],
 			[
-				"ac",
-				"activites"
-			],
-			[
 				"bac",
 				"background-color"
 			],
@@ -168,18 +192,34 @@
 	"buffers":
 	[
 		{
-			"file": "app/index.html",
+			"file": "app/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 8980,
+				"buffer_size": 343,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"file": "app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 233,
+				"buffer_size": 1697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nico/BURGERMENU/jQuery-Ultimate-Burger-Menu/example1-simple-black-menu.html",
+			"settings":
+			{
+				"buffer_size": 9032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/_modules.scss",
+			"settings":
+			{
+				"buffer_size": 3962,
 				"line_ending": "Unix"
 			}
 		}
@@ -192,9 +232,29 @@
 	"command_palette":
 	{
 		"height": 398.0,
-		"last_filter": "instal",
+		"last_filter": "git",
 		"selected_items":
 		[
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -202,10 +262,6 @@
 			[
 				"",
 				":w - Save"
-			],
-			[
-				"p",
-				"Package Control: Remove Package"
 			],
 			[
 				"comment",
@@ -230,10 +286,6 @@
 			[
 				"gulp",
 				"Gulp: Run arbitrary task"
-			],
-			[
-				"git",
-				"Git: Commit"
 			],
 			[
 				"pac",
@@ -261,10 +313,6 @@
 			],
 			[
 				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -372,10 +420,6 @@
 				"HTMLPrettify"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"html",
 				"HTMLBeautify"
 			],
@@ -449,13 +493,22 @@
 	[
 		"/home/nico/CATHYPRESTSERVICE",
 		"/home/nico/CATHYPRESTSERVICE/app",
-		"/home/nico/CATHYPRESTSERVICE/app/images"
+		"/home/nico/CATHYPRESTSERVICE/app/scripts",
+		"/home/nico/CATHYPRESTSERVICE/app/scripts/vendor",
+		"/home/nico/CATHYPRESTSERVICE/dist"
 	],
 	"file_history":
 	[
+		"/home/nico/CATHYPRESTSERVICE/app/index.html",
+		"/home/nico/CATHYPRESTSERVICE/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/home/nico/CATHYPRESTSERVICE/app/sass/_layout.scss",
 		"/home/nico/CATHYPRESTSERVICE/app/sass/_modules.scss",
-		"/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/nico/CATHYPRESTSERVICE/gulpfile.babel.js",
+		"/home/nico/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/nico/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/nico/Documents/musculation.txt",
+		"/home/nico/Documents/SEANCE FULL BODY .txt",
+		"/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/nico/CATHYPRESTSERVICE/app/scripts/main.js",
 		"/home/nico/CATHYPRESTSERVICE/.tmp/scripts/main.js",
 		"/home/nico/SAV-CATHYPESTSERVICE/gulpfile.js",
@@ -556,7 +609,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -571,6 +624,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"viewp",
+			"hvr",
+			"li",
+			"div",
+			"cover",
+			"min",
+			"95",
+			"worker",
+			"cb",
+			"95",
 			"=\"/",
 			"appl",
 			"apple",
@@ -688,17 +751,7 @@
 			"large-8",
 			"large",
 			"8",
-			"large",
-			"e",
-			"large",
-			"                <div class=\"large-8 columns\">\n",
-			"large",
-			"3",
-			"apero",
-			"activ",
-			"activite",
-			"acitivite",
-			"<!"
+			"large"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -721,47 +774,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/index.html",
+					"file": "app/sass/_layout.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8980,
+						"buffer_size": 343,
 						"regions":
 						{
-							"bookmark_a":
-							{
-								"flags": 144,
-								"regions":
-								[
-									[
-										2721,
-										2723
-									],
-									[
-										2813,
-										2815
-									],
-									[
-										2898,
-										2900
-									],
-									[
-										2983,
-										2985
-									]
-								]
-							}
 						},
 						"selection":
 						[
 							[
-								6427,
-								6427
+								291,
+								291
 							]
 						],
 						"settings":
@@ -780,16 +810,41 @@
 							],
 							"bh_regions":
 							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -800,69 +855,145 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1681,
+								1681
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1601.0,
+						"translation.y": 117.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/home/nico/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"buffer": 2,
+					"file": "/home/nico/BURGERMENU/jQuery-Ultimate-Burger-Menu/example1-simple-black-menu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 233,
+						"buffer_size": 9032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								231,
-								231
+								147,
+								147
 							]
 						],
 						"settings":
@@ -881,16 +1012,41 @@
 							],
 							"bh_regions":
 							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -901,49 +1057,129 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/sass/_modules.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1541,
+								1541
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
+							"history_list_is_closing": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 433.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -951,7 +1187,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -984,9 +1220,17 @@
 	{
 		"height": 0.0
 	},
+	"output.exec":
+	{
+		"height": 122.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 122.0
 	},
 	"output.gulp_output":
 	{
@@ -1000,7 +1244,7 @@
 	"project": "CATHYPRESTSERVICES.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1010,20 +1254,44 @@
 		"selected_items":
 		[
 			[
-				"modu",
-				"app/sass/_modules.scss"
+				"layo",
+				"app/sass/_layout.scss"
+			],
+			[
+				"main",
+				"app/scripts/main.js"
+			],
+			[
+				"lay",
+				"app/sass/_layout.scss"
 			],
 			[
 				"mo",
 				"app/sass/_modules.scss"
 			],
 			[
-				"gulp",
+				"modu",
+				"app/sass/_modules.scss"
+			],
+			[
+				"gu",
 				"gulpfile.babel.js"
 			],
 			[
-				"main",
-				"app/scripts/main.js"
+				"index",
+				"app/index.html"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"gulp",
+				"gulpfile.babel.js"
 			],
 			[
 				"gul",
@@ -1050,10 +1318,6 @@
 				"src/sass/_modules.scss"
 			],
 			[
-				"index",
-				"src/index.html"
-			],
-			[
 				"pag",
 				"src/pages.html"
 			],
@@ -1076,10 +1340,6 @@
 			[
 				"pack",
 				"package.json"
-			],
-			[
-				"ind",
-				"app/index.html"
 			],
 			[
 				"produc",
@@ -1218,7 +1478,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

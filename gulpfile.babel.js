@@ -191,7 +191,7 @@ gulp.task('serve', ['compass','scripts', 'styles'], () => {
   gulp.watch(['app/**/*.html'], reload);
   gulp.watch(['app/styles/**/*.css'], ['styles', reload]);
   gulp.watch(['app/sass/**/*.scss'], ['compass', reload]);
-  gulp.watch(['app/scripts/**/*.js'], ['lint', 'scripts']);
+  gulp.watch(['app/scripts/**/*.js'], ['scripts',reload]);
   gulp.watch(['app/images/**/*'], reload);
 });
 
@@ -215,8 +215,7 @@ gulp.task('serve:dist', ['default'], () =>
 gulp.task('default', ['clean'], cb =>
   runSequence(
     'compass','styles',
-    ['lint', 'html', 'scripts', 'images', 'copy'],
-    'generate-service-worker',
+    ['html', 'scripts', 'images', 'copy'],
     cb
   )
 );
