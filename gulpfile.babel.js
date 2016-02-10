@@ -57,16 +57,17 @@ gulp.task('images', () =>
 );
 
 // Copy all files at the root level (app)
-gulp.task('copy', () =>
+gulp.task('copy', () =>{
   gulp.src([
     'app/*',
     '!app/*.html',
+    'font',
     'node_modules/apache-server-configs/dist/.htaccess'
   ], {
     dot: true
   }).pipe(gulp.dest('dist'))
     .pipe($.size({title: 'copy'}))
-);
+});
 
 gulp.task('compass', function() {
     var compass = require('gulp-compass');
