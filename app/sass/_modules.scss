@@ -2,12 +2,12 @@
 // ===================== ACCCUEIL ==================================
 // =================================================================
 #acceuil {
-    display: flex;
+    // display: flex;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: stretch;
+    // margin: 0;
+    // padding: 0;
+    // justify-content: center;
+    // align-items: stretch;
     p {
         text-align: center;
         .societe {
@@ -18,10 +18,10 @@
         }
     }
     #prestservice {
+        position: relative;
         min-height: 100vh;
-        width: 80%;
-        margin: 0;
-        padding: 0;
+        // margin: auto;
+        // padding: 0;
         background-image: url('../images/accueil-cathy.jpg');
         background-repeat: no-repeat;
         background-position: center;
@@ -29,27 +29,12 @@
         -moz-background-size: 100%;
         -o-background-size: 100%;
         background-size: 100%;
-        position: relative;
         // =================================================================
         // ===================== MENU  ==================================
         // =================================================================
         nav {
             position: absolute;
-            bottom: 0;
-            left: 0;
-            #menu {
-                display: flex;
-                width: 10rem;
-                align-items: stretch;
-                flex-direction: column;
-                margin-bottom: 3rem;
-                margin-left: 1rem;
-                .item {
-                    &:nth-child(odd) {
-                        align-self: flex-end;
-                    }
-                }
-            }
+            bottom: 3rem;
         }
     }
 }
@@ -58,43 +43,35 @@
 // ===================== SERVICES  ==================================
 // =================================================================
 #services {
-    text-align: center;
-    padding:1rem;
-    margin: auto;
-    width: 75%;
     clear: both;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
     @include background-image(linear-gradient(63deg, rgba($bordure, 0) 0%, rgba($bordure, .01) 50%, rgba($bordure, 0) 100%));
     %titre {
         font-family: olivier;
-        font-size: 3em;
+        font-size: 5em;
         font-weight: 400;
-        text-shadow: 0 .313em .363em rgba(1, 1, 1, .65);
-        @include transform(rotate(-25deg) translate(-2rem, 0.5rem));
+        // text-shadow: 0 .313em .363em rgba(1, 1, 1, .65);
+        @include transform(rotate(-25deg) translate(-2rem, -1rem));
     }
     #titre1 {
-        color: #30548e;
+        color: #c2dce5;
         // Text style for "Nos services.."
         @extend %titre;
     }
     #titre2 {
         // Text style for "Innovants..."
-        color: purple;
+        color: #fddf5c;
         @extend %titre;
-        // transform: matrix(0.928, -0.372, 0.372, 0.928, 0, 0);
-        // font: 400 42px / 1.92px olivier;
     }
     #titre3 {
-        color: red;
+        color: #92b96b;
         @extend %titre;
     }
-    /* contexte général flex sur le conteneur */
     .texte {
-        margin:0;
-        font-family: caladea;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 1.1rem;
-        margin-bottom: 0;
+        margin-top: 20%;
     }
     .rectangle {
         min-height: 100vh;
@@ -105,23 +82,14 @@
         -moz-background-size: 95%;
         -o-background-size: 95%;
         background-size: 95%;
-        float: left;
-        width: 33%;
     }
     img {
-        margin-top: 2rem;
+        margin: 2rem;
+    }
+    p {
+        font-family: caladea;
+        font-size: 2rem;
         margin-bottom: 2rem;
-    }
-    p{
-        margin-bottom: 1.2rem;
-    }
-}
-
-@media screen and (min-width: 750px) {
-    #prestservice {
-        p {
-            display: none;
-        }
     }
 }
 
@@ -129,29 +97,126 @@
 // ===================== AVANTAGES  ==================================
 // =================================================================
 #avantages {
-    clear: both;
+    height: 100vh;
+    margin: auto;
     .tableau {
-        height: 40rem;
+        // width: auto;
+        // height: 90rem;
+        padding-bottom: 5rem;
+        height: 100vh;
+        text-align: center;
         background: url(../images/TABLEAU.png);
         background-repeat: no-repeat;
         background-position: center;
-        -webkit-background-size: 50%;
-        -moz-background-size: 50%;
-        -o-background-size: 50%;
-        background-size: 50%;
-        text-align: center;
-    }
-    .text-olivier {
-        font-family: olivier;
-        font-weight: 400;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
     }
     .text-tableau {
-        font-family: caladea;
-        font-size: 3rem;
-        font-weight: 700;
+        margin-top: 40%;
+        .caladea {
+            font-family: caladea;
+            font-size: 2rem;
+            color: #18456b;
+            font-weight: 700;
+        }
+        .olivier {
+            font-family: olivier;
+            font-size: 3rem;
+            font-weight: 400;
+            color: #5abefa;
+            font-weight: 400;
+        }
+    }
+    img {
+        margin-top: 6rem;
     }
 }
 
 // =================================================================
 // ===================== CONTACT  ==================================
+// ================================================================= 
+#contact {
+    height: 100vh;
+    h2 {
+        font-family: 'olivier';
+        font-size: 8rem;
+    }
+    .btn-outline {
+        margin-top: 15px;
+        border: solid 2px #fff;
+        font-size: 20px;
+        color: #fff;
+        background: 0 0;
+        transition: all .3s ease-in-out;
+    }
+    .btn-outline:hover,
+    .btn-outline:focus,
+    .btn-outline:active,
+    .btn-outline.active {
+        border: solid 2px #fff;
+        color: #18bc9c;
+        background: #fff;
+    }
+    .floating-label-form-group {
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: .5em;
+        border-bottom: 1px solid #eee;
+    }
+    .floating-label-form-group input,
+    .floating-label-form-group textarea {
+        z-index: 1;
+        position: relative;
+        padding-right: 0;
+        padding-left: 0;
+        border: 0;
+        border-radius: 0;
+        font-size: 1.5em;
+        background: 0 0;
+        box-shadow: none!important;
+        resize: none;
+    }
+    .floating-label-form-group label {
+        display: block;
+        z-index: 0;
+        position: relative;
+        top: 2em;
+        margin: 0;
+        font-size: .85em;
+        line-height: 1.764705882em;
+        vertical-align: middle;
+        vertical-align: baseline;
+        opacity: 0;
+        -webkit-transition: top .3s ease, opacity .3s ease;
+        -moz-transition: top .3s ease, opacity .3s ease;
+        -ms-transition: top .3s ease, opacity .3s ease;
+        transition: top .3s ease, opacity .3s ease;
+    }
+    .floating-label-form-group:not(:first-child) {
+        padding-left: 14px;
+        border-left: 1px solid #eee;
+    }
+    .floating-label-form-group-with-value label {
+        top: 0;
+        opacity: 1;
+    }
+    .floating-label-form-group-with-focus label {
+        color: #18bc9c;
+    }
+    form .row:first-child .floating-label-form-group {
+        border-top: 1px solid #eee;
+    }
+}
+
 // =================================================================
+// ===================== MOBILE  ==================================
+// =================================================================
+@media screen and (min-width: 750px) {
+    #prestservice {
+        p {
+            display: none;
+        }
+    }
+}

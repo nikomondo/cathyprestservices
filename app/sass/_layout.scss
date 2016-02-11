@@ -1,21 +1,34 @@
-    /* Decoration */
-    
-    body {
-        margin: 1em;
-        font-family: "Century Gothic", helvetica, arial, sans-serif;
-        font-size: 1em;
-    }
-    /* Layout */
-    
-    * {
-        box-sizing: border-box
-    }
-    
-    // .js #menunav {
-    //     display: none;
-    // }
-    
-    
-    footer {
-        text-align: center;
-    }
+                        /* Decoration */
+                        
+                        body {
+                            margin: 1em;
+                            font-family: "Century Gothic", helvetica, arial, sans-serif;
+                            font-size: 1em;
+                        }
+                        /* Layout */
+                        
+                        * {
+                            box-sizing: border-box
+                        }
+                        
+                        footer {
+                            text-align: center;
+                        }
+                        
+                        //=======================================================
+                        //=============   NAVIGATION ===========================
+                        //=======================================================
+                        
+                        .hidden {
+                            display: none;
+                        }
+                        
+                        .fixNavigation {
+                            z-index: 9999;
+                            position: fixed;
+                            top: 0;
+                            /* Mise en forme */
+                            width: 900px;
+                            /* <-- Largeur de votre site */
+                        }
+                       
