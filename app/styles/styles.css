@@ -7361,6 +7361,10 @@ footer {
   text-align: center;
 }
 
+.container {
+  width: 960px;
+}
+
 .hidden {
   display: none;
 }
@@ -7399,7 +7403,11 @@ footer {
 }
 #acceuil #prestservice nav {
   position: absolute;
-  bottom: 3rem;
+  bottom: 100px;
+}
+
+#navmenu a {
+  font-family: "olivier";
 }
 
 #services {
@@ -7418,10 +7426,10 @@ footer {
   font-family: olivier;
   font-size: 5em;
   font-weight: 400;
-  -moz-transform: rotate(-25deg) translate(-2rem, -1rem);
-  -ms-transform: rotate(-25deg) translate(-2rem, -1rem);
-  -webkit-transform: rotate(-25deg) translate(-2rem, -1rem);
-  transform: rotate(-25deg) translate(-2rem, -1rem);
+  -moz-transform: rotate(-25deg) translate(-2rem, 2rem);
+  -ms-transform: rotate(-25deg) translate(-2rem, 2rem);
+  -webkit-transform: rotate(-25deg) translate(-2rem, 2rem);
+  transform: rotate(-25deg) translate(-2rem, 2rem);
 }
 #services #titre1 {
   color: #c2dce5;
@@ -7433,7 +7441,7 @@ footer {
   color: #92b96b;
 }
 #services .texte {
-  margin-top: 20%;
+  margin-top: 30%;
 }
 #services .rectangle {
   min-height: 100vh;
@@ -7446,22 +7454,25 @@ footer {
   background-size: 95%;
 }
 #services img {
-  margin: 2rem;
+  margin: 4rem;
 }
 #services p {
   font-family: caladea;
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 #avantages {
   height: 100vh;
-  margin: auto;
+}
+#avantages .sans-marge {
+  margin: 0;
+  padding: 0;
 }
 #avantages .tableau {
-  padding-bottom: 5rem;
+  margin: 0;
+  padding: 0;
   height: 100vh;
-  text-align: center;
   background: url(../images/TABLEAU.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -7471,11 +7482,11 @@ footer {
   background-size: 100%;
 }
 #avantages .text-tableau {
-  margin-top: 40%;
+  margin-top: 28%;
 }
 #avantages .text-tableau .caladea {
-  font-family: caladea;
-  font-size: 2rem;
+  font-family: x Caladea;
+  font-size: 24px;
   color: #18456b;
   font-weight: 700;
 }
@@ -7487,7 +7498,7 @@ footer {
   font-weight: 400;
 }
 #avantages img {
-  margin-top: 6rem;
+  display: inline-block;
 }
 
 #contact {

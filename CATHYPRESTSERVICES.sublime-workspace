@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"d",
+				"div	<div>"
+			],
+			[
 				"cle",
 				"clear	(_modules.scss)"
 			],
@@ -212,32 +216,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html class=\"no-js\">\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"utf-8\">\n    <title>Cathy Prest'Service </title>\n    <meta name=\"description\" content=\"Assistante Administrative ne Teletravail\">\n    <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1\">\n    <!-- Disable tap highlight on IE -->\n    <meta name=\"msapplication-tap-highlight\" content=\"no\">\n    <!-- Web Application Manifest -->\n    <link rel=\"manifest\" href=\"manifest.json\">\n    <meta http-equiv=\"cleartype\" content=\"on\">\n    <link rel=\"manifest \" href=\"/manifest.json \">\n    <meta name=\"msapplication-TileColor \" content=\"#ffffff \">\n    <meta name=\"msapplication-TileImage \" content=\"images/ms-icon-144x144.png \">\n    <meta name=\"theme-color \" content=\"#ffffff \">\n    <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->\n    <!--\n        <link rel=\"canonical \" href=\"http://www.example.com/ \" >\n        -->\n    <!-- Add to homescreen for Chrome on Android -->\n    <!--\n        <meta name=\"mobile-web-app-capable \" content=\"yes \">\n        -->\n    <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->\n    <!--\n        <meta name=\"apple-mobile-web-app-capable \" content=\"yes \">\n        <meta name=\"apple-mobile-web-app-status-bar-style \" content=\"black \">\n        <meta name=\"apple-mobile-web-app-title \" content=\" \">\n        -->\n    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->\n    <!--\n        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener(\"click \",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;\"href \"in d&&(d.href.indexOf(\"http \")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,\"standalone \")</script>\n        -->\n    <link rel=\"stylesheet \" href=\"styles/normalize.css \">\n    <link rel=\"stylesheet \" href=\"styles/jquery-ui.css \">\n    <link rel=\"stylesheet \" href=\"styles/jquery-ui.theme.css \">\n    <link rel=\"stylesheet \" href=\"styles/jquery-ui.structure.css \">\n    <link rel=\"stylesheet \" href=\"styles/hover-min.css \" />\n    <link rel=\"stylesheet \" href=\"styles/styles.css \">\n    <script src=\"scripts/vendor/modernizr-2.8.3.min.js \"></script>\n</head>\n\n<body>\n    <section id=\"acceuil\">\n        <div id=\"prestservice\">\n            <nav role=\"navigation\">\n                <div id=\"menu\">\n                    <div class=\"item hvr-grow-rotate\">\n                        <a href=\"# \"><img src=\"images/accueil-postit.png\" alt=\"lien acceuil\"></a>\n                    </div>\n                    <div class=\"item hvr-grow-rotate\">\n                        <a href=\"#services \"><img src=\"images/services-postit.png\" alt=\"Lien nos services\"></a>\n                    </div>\n                    <div class=\"item hvr-grow-rotate\">\n                        <a href=\"#avantages \"><img src=\"images/avantages-postit.png\" alt=\"lien vers vos avantages\"></a>\n                    </div>\n                    <div class=\"item hvr-grow-rotate\">\n                        <a href=\"#contact \"><img src=\"images/contact-postit.png\" alt=\"lien nous contacter\"></a>\n                    </div>\n                </div>\n            </nav>\n        </div>\n    </section>\n    <div id=\"cadre-menu\">\n        <div id=\"bordure-menu\">\n            <ul>\n                <li>\n                    <a href=\"# \">accueil</a>\n                </li>\n                <li>\n                    <a href=\"#services \">services</a>\n                </li>\n                <li>\n                    <a href=\"#avantages \">avantages</a>\n                </li>\n                <li>\n                    <a href=\"#contact \">contact</a>\n                </li>\n            </ul>\n            <div id=\"bouton-menu\">\n                <img src=\"images/fond-demo-menu.jpg\" alt=\"\">\n            </div>\n        </div>\n    </div>\n    <section id=\"services\">\n        <div class=\"rectangle\">\n            <h3 id=\"titre1\">Nos services ...</h3>\n            <div class=\"texte\">\n                <img src=\"images/CASQUE.png \" alt=\"casques standardist \">\n                <p>Nous vous proposons une permanence téléphonique hors de vos locaux.</p>\n                <p>Nous travaillons à notre domicile, en tant que travailleurs indépendants.</p>\n                <p>Nous sommes formées et expérimentées dans le domaine de l'assistance téléphonique administrative. Nous avons le goût de la relation client.</p>\n                <p>Nous travaillons sur des plages horaires étendues.</p>\n                <P>Nous gérons vos appels, vos prises de rendez-vous, votre agenda, votre messagerie</P>\n            </div>\n        </div>\n        <div class=\"rectangle\">\n            <h3 id=\"titre2\">Innovants ...</h3>\n            <div class=\"texte \">\n                <img src=\"images/MAINS.png \" alt=\"poignée de mains \">\n                <p>Le télé-travail se développe en France et ailleurs.</p>\n                <p>Cette forme de travail est rendue possible par les nouveaux outils collaboratifs.</p>\n                <p>Elle permet de transformer les relations professionnelles.</p>\n                <p>Une relation de confiance et de professionnalisme s'installe entre le prestataire et son client.</p>\n                <p>Le travail est collaboratif, er tout le monde y trouve son compte ! </p>\n            </div>\n        </div>\n        <div class=\"rectangle \">\n            <h3 id='titre3'>Et solidaires!</h3>\n            <div class=\"texte\"> <img src=\"images/HEXAGONE.png\" alt=\"hexagone \">\n                <p>Nous ne sommes pas un centre d'appel. Nous sommes basées en France, dans le Poitou.</p>\n                <p>En utilisant nos services, vous contribuez à faire traviller des personnes en situation de handicap.</p>\n                <p>En plus, avec le télétravail, il y a moins de voitures sur les routes.</p>\n                <p>C'est bon pour la planète ! </p>\n            </div>\n        </div>\n    </section>\n    <section id=\"avantages\">\n        <div>\n            <img src=\"images/HOMME.png\" alt=\"\">\n        </div>\n        <div class=\"tableau\">\n            <p class=\"text-olivier\">Pourquoi choisir Cathy Prest&#8217;Services?</p>\n            <p class=\"text-tableau\">Une solution fiable techniquement </p>\n            <p>Je conserve mon numéro</p>\n            <p>Je gagne de la place dans mes locaux</p>\n            <p>Les asssistantes administratives sont formées </p>\n            <p class=\"text-olivier\">Je me consacre à mon métier !</p>\n        </div>\n        <div>\n            <img src=\"images/PLANTE.png\" alt=\"\">\n        </div>\n    </section>\n    <footer>\n        5ncreation\n    </footer>\n    </div>\n    <!--fin wrapper -->\n    <!-- Add your site or application content here -->\n    <!-- // <script src=\"js/vendor/jquery-2.2.0.min.js \"></script> -->\n    <script src=\"//code.jquery.com/jquery-1.10.2.js \"></script>\n    <script src=\"scripts/main.js \"></script>\n    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n    <!--     <script>\n(function(b, o, i, l, e, r) {\n    b.GoogleAnalyticsObject = l;\n    b[l] || (b[l] =\n        function() {\n            (b[l].q = b[l].q || []).push(arguments)\n        });\n    b[l].l = +new Date;\n    e = o.createElement(i);\n    r = o.getElementsByTagName(i)[0];\n    e.src = '//www.google-analytics.com/analytics.js'r\n    r.parentNode.insertBefore(e, r)\n}(window, document, 'script', 'ga'));\nga('create', 'UA-XXXXX-X');\nga('send', 'pageview');\n</script> -->\n</body>\n\n</html>\n",
 			"file": "app/index.html",
-			"file_size": 7502,
-			"file_write_time": 130996032255601028,
 			"settings":
 			{
-				"buffer_size": 7477,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/sass/_modules.scss",
-			"settings":
-			{
-				"buffer_size": 4765,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "@import \"variables\";\n@import \"compass\";\n@import \"compass/css3/images\";\n@import \"typo\";\n@import \"layout\";\n@import \"modules\";\n",
-			"file": "app/sass/styles.scss",
-			"file_size": 124,
-			"file_write_time": 130995812437850221,
-			"settings":
-			{
-				"buffer_size": 124,
+				"buffer_size": 10916,
 				"line_ending": "Unix"
 			}
 		},
@@ -245,7 +227,15 @@
 			"file": "app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 1402,
+				"buffer_size": 1261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/sass/_modules.scss",
+			"settings":
+			{
+				"buffer_size": 6327,
 				"line_ending": "Unix"
 			}
 		},
@@ -253,7 +243,7 @@
 			"file": "app/sass/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 3128,
+				"buffer_size": 1383,
 				"line_ending": "Unix"
 			}
 		}
@@ -266,7 +256,7 @@
 	"command_palette":
 	{
 		"height": 398.0,
-		"last_filter": "rem",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -531,26 +521,29 @@
 	[
 		"/home/nico/CATHYPRESTSERVICE",
 		"/home/nico/CATHYPRESTSERVICE/app",
-		"/home/nico/CATHYPRESTSERVICE/app/scripts",
-		"/home/nico/CATHYPRESTSERVICE/app/scripts/vendor",
-		"/home/nico/CATHYPRESTSERVICE/dist"
+		"/home/nico/CATHYPRESTSERVICE/app/fonts/bootstrap",
+		"/home/nico/CATHYPRESTSERVICE/app/scripts/vendor/bootstrap"
 	],
 	"file_history":
 	[
+		"/home/nico/5NCREATION/app/index.html",
+		"/home/nico/CATHYPRESTSERVICE/app/config.rb",
+		"/home/nico/CATHYPRESTSERVICE/app/sass/_variables.scss",
+		"/home/nico/CATHYPRESTSERVICE/app/sass/_typo.scss",
+		"/home/nico/CATHYPRESTSERVICE/app/fonts/caladea-regular.ttf",
+		"/home/nico/CATHYPRESTSERVICE/app/sass/_modules.scss",
+		"/home/nico/5NCREATION/app/styles/_modules.scss",
+		"/home/nico/CATHYPRESTSERVICE/app/index.html",
+		"/home/nico/CATHYPRESTSERVICE/app/scripts/main.js",
+		"/home/nico/CATHYPRESTSERVICE/app/sass/_layout.scss",
+		"/home/nico/CATHYPRESTSERVICE/app/sass/styles.scss",
 		"/home/nico/MENU/menu-fixe/Menu fixe en jQuery - 41Mag.fr/css/style.css",
 		"/home/nico/MENU/menu-fixe/Menu fixe en jQuery - 41Mag.fr/js/menu-fixe.js",
 		"/home/nico/MENU/menu-fixe/Menu fixe en jQuery - 41Mag.fr/img/fond-demo-menu.jpg",
 		"/home/nico/ESSAI-5NCREATION/app/index.html",
 		"/home/nico/ESSAI-5NCREATION/app/sass/_creation.scss",
 		"/home/nico/ESSAI-5NCREATION/app/scripts/main.js",
-		"/home/nico/CATHYPRESTSERVICE/app/sass/_modules.scss",
-		"/home/nico/CATHYPRESTSERVICE/app/sass/_typo.scss",
-		"/home/nico/CATHYPRESTSERVICE/app/sass/styles.scss",
-		"/home/nico/5NCREATION/app/index.html",
-		"/home/nico/CATHYPRESTSERVICE/app/sass/_layout.scss",
-		"/home/nico/CATHYPRESTSERVICE/app/scripts/main.js",
 		"/home/nico/BURGERMENU/jQuery-Ultimate-Burger-Menu/example1-simple-black-menu.html",
-		"/home/nico/CATHYPRESTSERVICE/app/index.html",
 		"/home/nico/CATHYPRESTSERVICE/COMMIT_EDITMSG.COMMIT_EDITMSG",
 		"/home/nico/CATHYPRESTSERVICE/gulpfile.babel.js",
 		"/home/nico/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
@@ -672,6 +665,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"compass",
+			"font",
+			"form",
+			"}\n",
+			"contac",
+			"contact",
+			"-lg-",
+			"80",
+			"50",
+			"img-responsive",
+			"img",
+			"src",
+			"avantage",
+			"        ",
+			"\n        ",
+			"80",
+			"50",
+			"100",
+			"div",
+			"fluid",
 			"                       }",
 			"div_top",
 			"100",
@@ -779,27 +792,7 @@
 			"<!--",
 			"ul",
 			"<!--",
-			"ul",
-			"debut",
-			"span",
-			"\n        ",
-			"button",
-			"color",
-			"\n    ",
-			"premiere-ligne",
-			"activites",
-			"jeu",
-			"activites",
-			"div",
-			"activites",
-			"activite",
-			"div",
-			"ul",
-			"orange",
-			"4928x3264",
-			">\n",
-			"face",
-			"Cécile"
+			"ul"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -822,7 +815,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -831,15 +824,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7477,
+						"buffer_size": 10916,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								461,
-								461
+								10262,
+								10262
 							]
 						],
 						"settings":
@@ -858,36 +851,31 @@
 							],
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -898,6 +886,16 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -907,12 +905,7 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -920,27 +913,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1728.0,
+						"translation.y": 3753.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/sass/_modules.scss",
+					"file": "app/scripts/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4765,
+						"buffer_size": 1261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2713,
-								2713
+								1050,
+								1050
 							]
 						],
 						"settings":
@@ -959,26 +952,46 @@
 							],
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -993,35 +1006,12 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_round_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 990.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1029,19 +1019,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/sass/styles.scss",
+					"file": "app/sass/_modules.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 124,
+						"buffer_size": 6327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								71
+								1321,
+								1321
 							]
 						],
 						"settings":
@@ -1060,46 +1050,6 @@
 							],
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1110,85 +1060,21 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/scripts/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1301,
-								1301
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1199,113 +1085,16 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "app/sass/_layout.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3128,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1441,
-								1441
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bh_regions":
-							[
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1315,20 +1104,115 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright (SL).tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 191.0,
-						"translation.y": 319.0,
+						"translation.x": 0.0,
+						"translation.y": 181.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/sass/_layout.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1354,18 +1238,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.598693759071,
 			1.0
 		],
 		"rows":
@@ -1403,7 +1280,7 @@
 	"project": "CATHYPRESTSERVICES.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1413,20 +1290,40 @@
 		"selected_items":
 		[
 			[
-				"style",
-				"app/sass/styles.scss"
-			],
-			[
-				"layou",
-				"app/sass/_layout.scss"
+				"main",
+				"app/scripts/main.js"
 			],
 			[
 				"modu",
 				"app/sass/_modules.scss"
 			],
 			[
-				"main",
-				"app/scripts/main.js"
+				"module",
+				"app/sass/_modules.scss"
+			],
+			[
+				"modules",
+				"app/sass/_modules.scss"
+			],
+			[
+				"modul",
+				"app/sass/_modules.scss"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"inde",
+				"app/index.html"
+			],
+			[
+				"style",
+				"app/sass/styles.scss"
+			],
+			[
+				"layou",
+				"app/sass/_layout.scss"
 			],
 			[
 				"ind",
@@ -1447,10 +1344,6 @@
 			[
 				"gu",
 				"gulpfile.babel.js"
-			],
-			[
-				"index",
-				"app/index.html"
 			],
 			[
 				"index.html",
@@ -1495,10 +1388,6 @@
 			[
 				"",
 				"src/js/main.js"
-			],
-			[
-				"inde",
-				"src/index.html"
 			],
 			[
 				"in",
@@ -1645,7 +1534,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 222.0,
+	"side_bar_width": 242.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
